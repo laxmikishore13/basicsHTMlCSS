@@ -26,3 +26,16 @@ for (let link of links) {
  *
  * asynchronous - promises, fetch, async/await, setTimeout and setInterval
  */
+
+//can redeclare and re-initialize
+var name = "kishore";
+var name = "sda";
+
+// cannot redeclare but re-initialize is possible
+let a = "b";
+a = "dsadasd";
+
+// cannot redeclare & re-initialize
+const sda = "sadasdasda";
+
+sda = "ww";
